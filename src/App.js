@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from 'react';
 
 const App = () => {
   return (
@@ -6,6 +6,6 @@ const App = () => {
       <h1>Elliot Leo Garamendi Sarmiento</h1>
     </Fragment>
   )
-}
+};
 
 export default App;
