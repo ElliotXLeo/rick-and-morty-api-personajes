@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const App = () => {
   return (
     <Fragment>
-      <h1>Elliot Leo Garamendi Sarmiento</h1>
+      <h1>Elliot Leo Garamendi Sarmiento - Desarrollador</h1>
     </Fragment>
   )
 };
