@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <Fragment>
-      <h1>Elliot Leo Garamendi Sarmiento - Desarrollador</h1>
+      <Header
+        title="Rick and Morty API"
+      />
     </Fragment>
   )
 };
