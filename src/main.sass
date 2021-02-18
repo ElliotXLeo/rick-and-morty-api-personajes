@@ -21,7 +21,7 @@ header:before
   opacity: 0.8
 
 .container
-  width: 80%
+  width: 100%
   margin: auto
   height: 100%
 
@@ -34,15 +34,15 @@ header:before
   justify-content: center
   position: relative
 
-.title
-  padding: 10px
-  color: #82bf45
-  font-size: 5rem
-  font-family: Shlop
+  .title
+    padding: 10px
+    color: #82bf45
+    font-size: 5rem
+    font-family: Shlop
 
-.text
-  color: #17a3ac
-  font-family: Shlop
+  .text
+    color: #17a3ac
+    font-family: Shlop
 
 .characters
   margin-top: 20px
@@ -95,3 +95,75 @@ header:before
         font-size: 1em
         margin: 3px 0px
         font-family: Shlop
+
+@media screen and ( max-width: 1280px )
+  .container
+    width: 95%
+    .content
+      .title
+        font-size: 4rem
+    .characters
+      .box
+        .character
+          .name
+            font-size: 1.5em
+
+@media screen and ( max-width: 1024px )
+  .container
+    width: 90%
+    .content
+      .title
+        font-size: 3.5rem
+    .characters
+      .box
+        .character
+          .name
+            font-size: 1em
+
+@media screen and ( max-width: 800px )
+  .container
+    width: 90%
+    .content
+      .title
+        font-size: 3rem
+    .characters
+      .box
+        .character
+          .name
+            font-size: 0.9em
+          .specie
+            font-size: 0.85em
+          .status
+            font-size: 0.85em
+
+@media screen and ( max-width: 640px )
+  .container
+    width: 100%
+    .content
+      .title
+        font-size: 2.5rem
+    .characters
+      .box
+        .character
+          .name
+            font-size: 0.85em
+          .specie
+            font-size: 0.80em
+          .status
+            font-size: 0.80em
+
+@media screen and ( max-width: 320px )
+  .container
+    width: 100%
+    .content
+      .title
+        font-size: 2rem
+    .characters
+      .box
+        .character
+          .name
+            font-size: 0.80em
+          .specie
+            font-size: 0.75em
+          .status
+            font-size: 0.75em
