@@ -1,5 +1,5 @@
 {
-  "name": "rick-and-morty",
+  "name": "rick-and-morty-api-personajes",
   "version": "1.0.0",
   "description": "Proyecto: Rick and Morty con ReactJS + Webpack + SASS",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElliotXLeo/rick-and-morty.git"
+    "url": "https://github.com/ElliotXLeo/rick-and-morty-api-personajes.git"
   },
   "author": "Elliot Leo Garamendi Sarmiento",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ElliotXLeo/rick-and-morty/issues"
+    "url": "https://github.com/ElliotXLeo/rick-and-morty-api-personajes/issues"
   },
-  "homepage": "https://github.com/ElliotXLeo/rick-and-morty#readme",
+  "homepage": "https://github.com/ElliotXLeo/rick-and-morty-api-personajes#readme",
   "dependencies": {
     "core-js": "^3.8.3",
     "react": "^17.0.1",
